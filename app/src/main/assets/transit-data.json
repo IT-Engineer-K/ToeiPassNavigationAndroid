@@ -1,0 +1,4717 @@
+{
+  "updatedAt": "2026-11-21T06:29:21.264Z",
+  "operators": {
+    "TOEI": {
+      "id": "TOEI",
+      "name": "都営地下鉄・舎人・都電",
+      "isFreeWithToeiPass": true,
+      "badgeColor": "#16a34a"
+    },
+    "TOEI_BUS": {
+      "id": "TOEI_BUS",
+      "name": "都営バス",
+      "isFreeWithToeiPass": true,
+      "badgeColor": "#15803d",
+      "flatFare": 210
+    },
+    "METRO": {
+      "id": "METRO",
+      "name": "東京メトロ",
+      "isFreeWithToeiPass": false,
+      "badgeColor": "#0284c7",
+      "fareTable": [
+        {
+          "maxKm": 6,
+          "ic": 178,
+          "ticket": 180
+        },
+        {
+          "maxKm": 11,
+          "ic": 209,
+          "ticket": 210
+        },
+        {
+          "maxKm": 19,
+          "ic": 252,
+          "ticket": 260
+        },
+        {
+          "maxKm": 27,
+          "ic": 293,
+          "ticket": 300
+        },
+        {
+          "maxKm": 40,
+          "ic": 324,
+          "ticket": 330
+        }
+      ]
+    },
+    "JR": {
+      "id": "JR",
+      "name": "JR東日本",
+      "isFreeWithToeiPass": false,
+      "badgeColor": "#166534",
+      "fareTable": [
+        {
+          "maxKm": 3,
+          "ic": 146,
+          "ticket": 150
+        },
+        {
+          "maxKm": 6,
+          "ic": 167,
+          "ticket": 170
+        },
+        {
+          "maxKm": 10,
+          "ic": 178,
+          "ticket": 180
+        },
+        {
+          "maxKm": 15,
+          "ic": 209,
+          "ticket": 210
+        },
+        {
+          "maxKm": 20,
+          "ic": 274,
+          "ticket": 280
+        },
+        {
+          "maxKm": 25,
+          "ic": 359,
+          "ticket": 360
+        },
+        {
+          "maxKm": 30,
+          "ic": 418,
+          "ticket": 420
+        },
+        {
+          "maxKm": 35,
+          "ic": 492,
+          "ticket": 500
+        },
+        {
+          "maxKm": 45,
+          "ic": 571,
+          "ticket": 580
+        },
+        {
+          "maxKm": 60,
+          "ic": 658,
+          "ticket": 660
+        }
+      ]
+    },
+    "KEIO": {
+      "id": "KEIO",
+      "name": "京王電鉄",
+      "isFreeWithToeiPass": false,
+      "badgeColor": "#be185d",
+      "fareTable": [
+        {
+          "maxKm": 4,
+          "ic": 140,
+          "ticket": 140
+        },
+        {
+          "maxKm": 8,
+          "ic": 160,
+          "ticket": 160
+        },
+        {
+          "maxKm": 12,
+          "ic": 190,
+          "ticket": 190
+        },
+        {
+          "maxKm": 18,
+          "ic": 250,
+          "ticket": 250
+        },
+        {
+          "maxKm": 24,
+          "ic": 290,
+          "ticket": 290
+        },
+        {
+          "maxKm": 30,
+          "ic": 350,
+          "ticket": 350
+        },
+        {
+          "maxKm": 40,
+          "ic": 400,
+          "ticket": 400
+        }
+      ]
+    },
+    "KEIO_BUS": {
+      "id": "KEIO_BUS",
+      "name": "京王バス",
+      "isFreeWithToeiPass": false,
+      "badgeColor": "#9d174d",
+      "flatFare": 220
+    },
+    "SEIBU": {
+      "id": "SEIBU",
+      "name": "西武鉄道",
+      "isFreeWithToeiPass": false,
+      "badgeColor": "#0369a1",
+      "fareTable": [
+        {
+          "maxKm": 4,
+          "ic": 157,
+          "ticket": 160
+        },
+        {
+          "maxKm": 8,
+          "ic": 188,
+          "ticket": 190
+        },
+        {
+          "maxKm": 12,
+          "ic": 220,
+          "ticket": 220
+        },
+        {
+          "maxKm": 16,
+          "ic": 251,
+          "ticket": 260
+        },
+        {
+          "maxKm": 24,
+          "ic": 314,
+          "ticket": 320
+        },
+        {
+          "maxKm": 35,
+          "ic": 377,
+          "ticket": 380
+        }
+      ]
+    },
+    "TOBU": {
+      "id": "TOBU",
+      "name": "東武鉄道",
+      "isFreeWithToeiPass": false,
+      "badgeColor": "#1e40af",
+      "fareTable": [
+        {
+          "maxKm": 4,
+          "ic": 157,
+          "ticket": 160
+        },
+        {
+          "maxKm": 7,
+          "ic": 178,
+          "ticket": 180
+        },
+        {
+          "maxKm": 10,
+          "ic": 209,
+          "ticket": 210
+        },
+        {
+          "maxKm": 15,
+          "ic": 261,
+          "ticket": 270
+        },
+        {
+          "maxKm": 25,
+          "ic": 324,
+          "ticket": 330
+        }
+      ]
+    },
+    "TOKYU": {
+      "id": "TOKYU",
+      "name": "東急電鉄",
+      "isFreeWithToeiPass": false,
+      "badgeColor": "#dc2626",
+      "fareTable": [
+        {
+          "maxKm": 3,
+          "ic": 140,
+          "ticket": 140
+        },
+        {
+          "maxKm": 7,
+          "ic": 170,
+          "ticket": 170
+        },
+        {
+          "maxKm": 11,
+          "ic": 210,
+          "ticket": 210
+        },
+        {
+          "maxKm": 15,
+          "ic": 230,
+          "ticket": 230
+        },
+        {
+          "maxKm": 20,
+          "ic": 280,
+          "ticket": 280
+        },
+        {
+          "maxKm": 30,
+          "ic": 310,
+          "ticket": 310
+        }
+      ]
+    },
+    "ODAKYU": {
+      "id": "ODAKYU",
+      "name": "小田急電鉄",
+      "isFreeWithToeiPass": false,
+      "badgeColor": "#2563eb",
+      "fareTable": [
+        {
+          "maxKm": 3,
+          "ic": 140,
+          "ticket": 140
+        },
+        {
+          "maxKm": 6,
+          "ic": 170,
+          "ticket": 170
+        },
+        {
+          "maxKm": 9,
+          "ic": 200,
+          "ticket": 200
+        },
+        {
+          "maxKm": 13,
+          "ic": 230,
+          "ticket": 230
+        },
+        {
+          "maxKm": 17,
+          "ic": 260,
+          "ticket": 260
+        },
+        {
+          "maxKm": 25,
+          "ic": 320,
+          "ticket": 320
+        }
+      ]
+    },
+    "KEIKYU": {
+      "id": "KEIKYU",
+      "name": "京急電鉄",
+      "isFreeWithToeiPass": false,
+      "badgeColor": "#e11d48",
+      "fareTable": [
+        {
+          "maxKm": 3,
+          "ic": 150,
+          "ticket": 150
+        },
+        {
+          "maxKm": 6,
+          "ic": 170,
+          "ticket": 170
+        },
+        {
+          "maxKm": 10,
+          "ic": 200,
+          "ticket": 200
+        },
+        {
+          "maxKm": 15,
+          "ic": 250,
+          "ticket": 250
+        },
+        {
+          "maxKm": 25,
+          "ic": 320,
+          "ticket": 320
+        }
+      ]
+    },
+    "KEISEI": {
+      "id": "KEISEI",
+      "name": "京成電鉄",
+      "isFreeWithToeiPass": false,
+      "badgeColor": "#1d4ed8",
+      "fareTable": [
+        {
+          "maxKm": 3,
+          "ic": 150,
+          "ticket": 150
+        },
+        {
+          "maxKm": 5,
+          "ic": 170,
+          "ticket": 170
+        },
+        {
+          "maxKm": 10,
+          "ic": 200,
+          "ticket": 200
+        },
+        {
+          "maxKm": 15,
+          "ic": 270,
+          "ticket": 270
+        },
+        {
+          "maxKm": 20,
+          "ic": 330,
+          "ticket": 330
+        }
+      ]
+    },
+    "YURIKAMOME": {
+      "id": "YURIKAMOME",
+      "name": "ゆりかもめ",
+      "isFreeWithToeiPass": false,
+      "badgeColor": "#0891b2",
+      "fareTable": [
+        {
+          "maxKm": 2,
+          "ic": 190,
+          "ticket": 190
+        },
+        {
+          "maxKm": 5,
+          "ic": 260,
+          "ticket": 260
+        },
+        {
+          "maxKm": 8,
+          "ic": 330,
+          "ticket": 330
+        },
+        {
+          "maxKm": 15,
+          "ic": 390,
+          "ticket": 390
+        }
+      ]
+    }
+  },
+  "lines": {
+    "TOEI_ASAKUSA": {
+      "id": "TOEI_ASAKUSA",
+      "name": "都営浅草線",
+      "operator": "TOEI",
+      "color": "#FF535F",
+      "code": "A",
+      "dirHint": "西馬込・泉岳寺・押上方面"
+    },
+    "TOEI_MITA": {
+      "id": "TOEI_MITA",
+      "name": "都営三田線",
+      "operator": "TOEI",
+      "color": "#0067B0",
+      "code": "I",
+      "dirHint": "目黒・大手町・西高島平方面"
+    },
+    "TOEI_SHINJUKU": {
+      "id": "TOEI_SHINJUKU",
+      "name": "都営新宿線",
+      "operator": "TOEI",
+      "color": "#B0BF1E",
+      "code": "S",
+      "dirHint": "新宿・神保町・本八幡方面"
+    },
+    "TOEI_OEDO": {
+      "id": "TOEI_OEDO",
+      "name": "都営大江戸線",
+      "operator": "TOEI",
+      "color": "#CE045B",
+      "code": "E",
+      "dirHint": "光が丘・都庁前・六本木・大門・両国方面"
+    },
+    "TOEI_ARAKAWA": {
+      "id": "TOEI_ARAKAWA",
+      "name": "東京さくらトラム（都電荒川線）",
+      "operator": "TOEI",
+      "color": "#EC6E9A",
+      "code": "SA",
+      "dirHint": "早稲田・王子・三ノ輪橋方面"
+    },
+    "TOEI_TONERI": {
+      "id": "TOEI_TONERI",
+      "name": "日暮里・舎人ライナー",
+      "operator": "TOEI",
+      "color": "#FF69B4",
+      "code": "NT",
+      "dirHint": "日暮里・見沼代親水公園方面"
+    },
+    "TOEI_BUS_MAIN": {
+      "id": "TOEI_BUS_MAIN",
+      "name": "都営バス",
+      "operator": "TOEI_BUS",
+      "color": "#16a34a",
+      "code": "都バス",
+      "dirHint": "ノンステップバス運行"
+    },
+    "METRO_GINZA": {
+      "id": "METRO_GINZA",
+      "name": "東京メトロ銀座線",
+      "operator": "METRO",
+      "color": "#FF9500",
+      "code": "G",
+      "dirHint": "渋谷・銀座・上野・浅草方面"
+    },
+    "METRO_MARUNOUCHI": {
+      "id": "METRO_MARUNOUCHI",
+      "name": "東京メトロ丸ノ内線",
+      "operator": "METRO",
+      "color": "#F62E36",
+      "code": "M",
+      "dirHint": "荻窪・新宿・東京・池袋方面"
+    },
+    "METRO_HIBIYA": {
+      "id": "METRO_HIBIYA",
+      "name": "東京メトロ日比谷線",
+      "operator": "METRO",
+      "color": "#B5B5AC",
+      "code": "H",
+      "dirHint": "中目黒・六本木・銀座・北千住方面"
+    },
+    "METRO_TOZAI": {
+      "id": "METRO_TOZAI",
+      "name": "東京メトロ東西線",
+      "operator": "METRO",
+      "color": "#009BBF",
+      "code": "T",
+      "dirHint": "中野・高田馬場・大手町・西船橋方面"
+    },
+    "METRO_CHIYODA": {
+      "id": "METRO_CHIYODA",
+      "name": "東京メトロ千代田線",
+      "operator": "METRO",
+      "color": "#00BB85",
+      "code": "C",
+      "dirHint": "代々木上原・大手町・北千住方面"
+    },
+    "METRO_YURAKUCHO": {
+      "id": "METRO_YURAKUCHO",
+      "name": "東京メトロ有楽町線",
+      "operator": "METRO",
+      "color": "#C1A470",
+      "code": "Y",
+      "dirHint": "和光市・池袋・有楽町・新木場方面"
+    },
+    "METRO_HANZOMON": {
+      "id": "METRO_HANZOMON",
+      "name": "東京メトロ半蔵門線",
+      "operator": "METRO",
+      "color": "#8F76D6",
+      "code": "Z",
+      "dirHint": "渋谷・表参道・大手町・押上方面"
+    },
+    "METRO_NAMBOKU": {
+      "id": "METRO_NAMBOKU",
+      "name": "東京メトロ南北線",
+      "operator": "METRO",
+      "color": "#00AC9B",
+      "code": "N",
+      "dirHint": "目黒・麻布十番・飯田橋・赤羽岩淵方面"
+    },
+    "METRO_FUKUTOSHIN": {
+      "id": "METRO_FUKUTOSHIN",
+      "name": "東京メトロ副都心線",
+      "operator": "METRO",
+      "color": "#9C5E31",
+      "code": "F",
+      "dirHint": "和光市・池袋・新宿三丁目・渋谷方面"
+    },
+    "JR_YAMANOTE": {
+      "id": "JR_YAMANOTE",
+      "name": "JR山手線",
+      "operator": "JR",
+      "color": "#9ACD32",
+      "code": "JY",
+      "dirHint": "内回り・外回り"
+    },
+    "JR_CHUO": {
+      "id": "JR_CHUO",
+      "name": "JR中央線・総武線",
+      "operator": "JR",
+      "color": "#F15A22",
+      "code": "JC",
+      "dirHint": "高尾・立川・武蔵小金井・新宿・東京・千葉方面"
+    },
+    "JR_MUSASHINO": {
+      "id": "JR_MUSASHINO",
+      "name": "JR武蔵野線・南武線",
+      "operator": "JR",
+      "color": "#F15A22",
+      "code": "JM",
+      "dirHint": "府中本町・西国分寺・武蔵浦和・川崎方面"
+    },
+    "JR_SAIKYO": {
+      "id": "JR_SAIKYO",
+      "name": "JR埼京線・湘南新宿ライン",
+      "operator": "JR",
+      "color": "#00AC9A",
+      "code": "JA",
+      "dirHint": "大宮・赤羽・池袋・新宿・渋谷・大崎方面"
+    },
+    "JR_KEIHIN": {
+      "id": "JR_KEIHIN",
+      "name": "JR京浜東北線・宇都宮・高崎線",
+      "operator": "JR",
+      "color": "#00B2E5",
+      "code": "JK",
+      "dirHint": "大宮・赤羽・上野・東京・品川・横浜方面"
+    },
+    "JR_JOBAN": {
+      "id": "JR_JOBAN",
+      "name": "JR常磐線",
+      "operator": "JR",
+      "color": "#00B261",
+      "code": "JJ",
+      "dirHint": "上野・日暮里・北千住・松戸・柏方面"
+    },
+    "KEIO_MAIN": {
+      "id": "KEIO_MAIN",
+      "name": "京王線・京王新線",
+      "operator": "KEIO",
+      "color": "#DD0077",
+      "code": "KO",
+      "dirHint": "新宿・笹塚・明大前・調布・府中・京王八王子方面"
+    },
+    "KEIO_INOKASHIRA": {
+      "id": "KEIO_INOKASHIRA",
+      "name": "京王井の頭線",
+      "operator": "KEIO",
+      "color": "#1E3A8A",
+      "code": "IN",
+      "dirHint": "渋谷・下北沢・明大前・吉祥寺方面"
+    },
+    "KEIO_BUS_LINE": {
+      "id": "KEIO_BUS_LINE",
+      "name": "京王バス（武71/武73/府75/調35等）",
+      "operator": "KEIO_BUS",
+      "color": "#9d174d",
+      "code": "京王バス",
+      "dirHint": "武蔵小金井駅南口〜府中駅・東府中駅・調布駅"
+    },
+    "SEIBU_SHINJUKU": {
+      "id": "SEIBU_SHINJUKU",
+      "name": "西武新宿線・池袋線・国分寺線",
+      "operator": "SEIBU",
+      "color": "#0099CC",
+      "code": "SS",
+      "dirHint": "西武新宿・高田馬場・田無・花小金井・小平・所沢方面"
+    },
+    "TOBU_LINES": {
+      "id": "TOBU_LINES",
+      "name": "東武スカイツリーライン・東上線",
+      "operator": "TOBU",
+      "color": "#1e40af",
+      "code": "TS",
+      "dirHint": "浅草・押上・北千住・池袋・和光市方面"
+    },
+    "TOKYU_TOYOKO": {
+      "id": "TOKYU_TOYOKO",
+      "name": "東急東横線",
+      "operator": "TOKYU",
+      "color": "#DA0442",
+      "code": "TY",
+      "dirHint": "渋谷・中目黒・自由が丘・武蔵小杉・横浜方面"
+    },
+    "TOKYU_MEGURO": {
+      "id": "TOKYU_MEGURO",
+      "name": "東急目黒線",
+      "operator": "TOKYU",
+      "color": "#009CD2",
+      "code": "MG",
+      "dirHint": "目黒（都営三田線直通）・武蔵小杉・日吉方面"
+    },
+    "TOKYU_DENENTOSHI": {
+      "id": "TOKYU_DENENTOSHI",
+      "name": "東急田園都市線",
+      "operator": "TOKYU",
+      "color": "#20A288",
+      "code": "DT",
+      "dirHint": "渋谷・三軒茶屋・二子玉川・溝の口・中央林間方面"
+    },
+    "ODAKYU_MAIN": {
+      "id": "ODAKYU_MAIN",
+      "name": "小田急小田原線",
+      "operator": "ODAKYU",
+      "color": "#2288CC",
+      "code": "OH",
+      "dirHint": "新宿・代々木上原・下北沢・登戸・町田方面"
+    },
+    "KEIKYU_MAIN": {
+      "id": "KEIKYU_MAIN",
+      "name": "京急本線・空港線",
+      "operator": "KEIKYU",
+      "color": "#E5002B",
+      "code": "KK",
+      "dirHint": "泉岳寺（都営浅草線直通）・品川・羽田空港・横浜方面"
+    },
+    "KEISEI_MAIN": {
+      "id": "KEISEI_MAIN",
+      "name": "京成本線・押上線",
+      "operator": "KEISEI",
+      "color": "#005AAA",
+      "code": "KS",
+      "dirHint": "押上（都営浅草線直通）・日暮里・青砥・京成八幡・成田空港方面"
+    },
+    "YURIKAMOME_LINE": {
+      "id": "YURIKAMOME_LINE",
+      "name": "ゆりかもめ",
+      "operator": "YURIKAMOME",
+      "color": "#00B5AD",
+      "code": "U",
+      "dirHint": "新橋・汐留・お台場海浜公園・豊洲方面"
+    }
+  },
+  "stations": [
+    {
+      "id": "musashi_koganei",
+      "name": "武蔵小金井",
+      "kana": "むさしこがねい musashikoganei",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "higashi_koganei",
+      "name": "東小金井",
+      "kana": "ひがしこがねい higashikoganei",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "musashi_sakai",
+      "name": "武蔵境",
+      "kana": "むさしさかい musashisakai",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "mitaka",
+      "name": "三鷹",
+      "kana": "みたか mitaka",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "kichijoji",
+      "name": "吉祥寺",
+      "kana": "きちじょうじ kichijoji",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "nishi_ogikubo",
+      "name": "西荻窪",
+      "kana": "にしおぎくぼ nishiogikubo",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "ogikubo",
+      "name": "荻窪",
+      "kana": "おぎくぼ ogikubo",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "asagaya",
+      "name": "阿佐ヶ谷",
+      "kana": "あさがや asagaya",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "koenji",
+      "name": "高円寺",
+      "kana": "こうえんじ koenji",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "kokubunji",
+      "name": "国分寺",
+      "kana": "こくぶんじ kokubunji",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "nishi_kokubunji",
+      "name": "西国分寺",
+      "kana": "にしこくぶんじ nishikokubunji",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kunitachi",
+      "name": "国立",
+      "kana": "くにたち kunitachi",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "tachikawa",
+      "name": "立川",
+      "kana": "たちかわ tachikawa",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "hachioji",
+      "name": "八王子",
+      "kana": "はちおうじ hachioji",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "takao",
+      "name": "高尾",
+      "kana": "たかお takao",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "fuchu",
+      "name": "府中",
+      "kana": "ふちゅう fuchu",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "higashi_fuchu",
+      "name": "東府中",
+      "kana": "ひがしふちゅう higashifuchu",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "bubaigawara",
+      "name": "分倍河原",
+      "kana": "ぶばいがわら bubaigawara",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "chofu",
+      "name": "調布",
+      "kana": "ちょうふ chofu",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "地下駅・エレベーター完備"
+    },
+    {
+      "id": "tsutsujigaoka",
+      "name": "つつじヶ丘",
+      "kana": "つつじがおか tsutsujigaoka",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "chitose_karasuyama",
+      "name": "千歳烏山",
+      "kana": "ちとせからすやま chitosekarasuyama",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "sakurajosui",
+      "name": "桜上水",
+      "kana": "さくらじょうすい sakurajosui",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "meidaimae",
+      "name": "明大前",
+      "kana": "めいだいまえ meidaimae",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "sasazuka",
+      "name": "笹塚",
+      "kana": "ささづか sasazuka",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "対面乗換・エレベーター完備（都営新宿線直通起点）"
+    },
+    {
+      "id": "hanakoganei",
+      "name": "花小金井",
+      "kana": "はなこがねい hanakoganei",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kodaira",
+      "name": "小平",
+      "kana": "こだいら kodaira",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "tanashi",
+      "name": "田無",
+      "kana": "たなし tanashi",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "tokorozawa",
+      "name": "所沢",
+      "kana": "ところざわ tokorozawa",
+      "area": "多摩・中央線・京王線",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "nakano",
+      "name": "中野",
+      "kana": "なかの nakano",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "higashi_nakano",
+      "name": "東中野",
+      "kana": "ひがしなかの higashinakano",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター完備（JR〜都営大江戸線乗換対応）"
+    },
+    {
+      "id": "nakano_sakaue",
+      "name": "中野坂上",
+      "kana": "なかのさかうえ nakanosakaue",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "okubo",
+      "name": "大久保（新大久保）",
+      "kana": "おおくぼ しんおおくぼ shinokubo",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "shinjuku",
+      "name": "新宿",
+      "kana": "しんじゅく shinjuku",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター・スロープ・多機能トイレ完備"
+    },
+    {
+      "id": "tocho_mae",
+      "name": "都庁前",
+      "kana": "とちょうまえ tochomae",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "対面ホーム乗換・エレベーター完備"
+    },
+    {
+      "id": "nishi_shinjuku_gochome",
+      "name": "西新宿五丁目",
+      "kana": "にししんじゅくごちょうめ nishishinjukugochome",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "shinjuku_nishiguchi",
+      "name": "新宿西口",
+      "kana": "しんじゅくにしぐち shinjukunishiguchi",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "shinjuku_sanchome",
+      "name": "新宿三丁目",
+      "kana": "しんじゅくさんちょうめ shinjukusanchome",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター・地下連絡通路完備"
+    },
+    {
+      "id": "higashi_shinjuku",
+      "name": "東新宿",
+      "kana": "ひがししんじゅく higashishinjuku",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "wakamatsu_kawada",
+      "name": "若松河田",
+      "kana": "わかまつかわだ wakamatsukawada",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "ushigome_yanagicho",
+      "name": "牛込柳町",
+      "kana": "うしごめやなぎちょう ushigomeyanagicho",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "ushigome_kagurazaka",
+      "name": "牛込神楽坂（神楽坂）",
+      "kana": "うしごめかぐらざか かぐらざか kagurazaka",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "akebonobashi",
+      "name": "曙橋",
+      "kana": "あけぼのばし akebonobashi",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "yotsuya",
+      "name": "四ツ谷",
+      "kana": "よつや yotsuya",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "yoyogi",
+      "name": "代々木",
+      "kana": "よよぎ yoyogi",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター完備（JR〜大江戸線乗換）"
+    },
+    {
+      "id": "yoyogi_uehara",
+      "name": "代々木上原",
+      "kana": "よよぎうえはら yoyogiuehara",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kokuritsu_kyogijo",
+      "name": "国立競技場（千駄ケ谷）",
+      "kana": "こくりつきょうぎじょう せんだがや sendagaya",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター・大型多機能トイレ完備"
+    },
+    {
+      "id": "waseda",
+      "name": "早稲田",
+      "kana": "わせだ waseda",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター・スロープ完備"
+    },
+    {
+      "id": "takadanobaba",
+      "name": "高田馬場",
+      "kana": "たかだのばば takadanobaba",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "shibuya",
+      "name": "渋谷",
+      "kana": "しぶや shibuya",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "omotesando",
+      "name": "表参道",
+      "kana": "おもてさんどう omotesando",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "対面乗換・エレベーター完備"
+    },
+    {
+      "id": "harajuku",
+      "name": "原宿（明治神宮前）",
+      "kana": "はらじゅく めいじじんぐうまえ harajuku",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "shimokitazawa",
+      "name": "下北沢",
+      "kana": "しもきたざわ shimokitazawa",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "sangenjaya",
+      "name": "三軒茶屋",
+      "kana": "さんげんぢゃや sangenjaya",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "futako_tamagawa",
+      "name": "二子玉川",
+      "kana": "ふたこたまがわ futakotamagawa",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "ebisu",
+      "name": "恵比寿",
+      "kana": "えびす ebisu",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "nakameguro",
+      "name": "中目黒",
+      "kana": "なかめぐろ nakameguro",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "対面乗換・エレベーター完備"
+    },
+    {
+      "id": "jiyugaoka",
+      "name": "自由が丘",
+      "kana": "じゆうがおか jiyugaoka",
+      "area": "世田谷・渋谷・目黒",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "meguro",
+      "name": "目黒",
+      "kana": "めぐろ meguro",
+      "area": "品川・五反田・目黒",
+      "barrierFree": "エレベーター完備（都営三田線始発・直通）"
+    },
+    {
+      "id": "shirokanedai",
+      "name": "白金台",
+      "kana": "しろかねだい shirokanedai",
+      "area": "港・六本木・赤坂",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "aoyama_itchome",
+      "name": "青山一丁目",
+      "kana": "あおやまいっちょうめ aoyamaitchome",
+      "area": "港・六本木・赤坂",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "akasaka_mitsuke",
+      "name": "赤坂見附（永田町）",
+      "kana": "あかさかみつけ ながたちょう akasakamitsuke",
+      "area": "港・六本木・赤坂",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "roppongi",
+      "name": "六本木",
+      "kana": "ろっぽんぎ roppongi",
+      "area": "港・六本木・赤坂",
+      "barrierFree": "大型エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "azabu_juban",
+      "name": "麻布十番",
+      "kana": "あざぶじゅうばん azabujuban",
+      "area": "港・六本木・赤坂",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "akabanebashi",
+      "name": "赤羽橋（東京タワー前）",
+      "kana": "あかばねばし とうきょうたわー akabanebashi",
+      "area": "港・六本木・赤坂",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "shirokane_takanawa",
+      "name": "白金高輪",
+      "kana": "しろかねたかなわ shirokanetakanawa",
+      "area": "港・六本木・赤坂",
+      "barrierFree": "対面ホーム乗換・エレベーター完備"
+    },
+    {
+      "id": "shibakoen",
+      "name": "芝公園",
+      "kana": "しばこうえん shibakoen",
+      "area": "港・六本木・赤坂",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "onamon",
+      "name": "御成門",
+      "kana": "おなりもん onarimon",
+      "area": "港・六本木・赤坂",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "daimon",
+      "name": "大門（浜松町）",
+      "kana": "だいもん はままつちょう daimon hamamatsucho",
+      "area": "港・六本木・赤坂",
+      "barrierFree": "エレベーター完備（浅草線〜大江戸線乗換）"
+    },
+    {
+      "id": "mita",
+      "name": "三田（田町）",
+      "kana": "みた たまち mita tamachi",
+      "area": "品川・五反田・目黒",
+      "barrierFree": "エレベーター完備（浅草線〜三田線乗換）"
+    },
+    {
+      "id": "sengakuji",
+      "name": "泉岳寺（高輪ゲートウェイ）",
+      "kana": "せんがくじ たかなわ sengakuji",
+      "area": "品川・五反田・目黒",
+      "barrierFree": "対面乗換・エレベーター完備（京急直通境界）"
+    },
+    {
+      "id": "takanawadai",
+      "name": "高輪台",
+      "kana": "たかなわだい takanawadai",
+      "area": "品川・五反田・目黒",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "shinagawa",
+      "name": "品川",
+      "kana": "しながわ shinagawa",
+      "area": "品川・五反田・目黒",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "osaki",
+      "name": "大崎",
+      "kana": "おおさき osaki",
+      "area": "品川・五反田・目黒",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "gotanda",
+      "name": "五反田",
+      "kana": "ごたんだ gotanda",
+      "area": "品川・五反田・目黒",
+      "barrierFree": "エレベーター完備（JR〜都営浅草線乗換）"
+    },
+    {
+      "id": "togoshi",
+      "name": "戸越（戸越銀座）",
+      "kana": "とごし とごしぎんざ togoshi",
+      "area": "品川・五反田・目黒",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "nakanobu",
+      "name": "中延",
+      "kana": "なかのぶ nakanobu",
+      "area": "品川・五反田・目黒",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "magome",
+      "name": "西馬込（馬込）",
+      "kana": "にしまごめ まごめ nishimagome",
+      "area": "品川・五反田・目黒",
+      "barrierFree": "エレベーター完備（都営浅草線始発）"
+    },
+    {
+      "id": "kamata",
+      "name": "蒲田（京急蒲田）",
+      "kana": "かまた kamata",
+      "area": "品川・五反田・目黒",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "haneda_airport",
+      "name": "羽田空港第1・第2ターミナル",
+      "kana": "はねだくうこう haneda",
+      "area": "品川・五反田・目黒",
+      "barrierFree": "エレベーター・バリアフリー完全対応"
+    },
+    {
+      "id": "shiodome",
+      "name": "汐留（新橋）",
+      "kana": "しおどめ しんばし shiodome shimbashi",
+      "area": "東京・銀座・新橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "tsukijishijo",
+      "name": "築地市場（築地）",
+      "kana": "つきじしじょう つきじ tsukiji",
+      "area": "東京・銀座・新橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "higashi_ginza",
+      "name": "東銀座（銀座）",
+      "kana": "ひがしぎんざ ぎんざ ginza",
+      "area": "東京・銀座・新橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "takara_cho",
+      "name": "宝町（京橋・東京駅八重洲口）",
+      "kana": "たからちょう きょうばし とうきょう tokyo",
+      "area": "東京・銀座・新橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "nihombashi",
+      "name": "日本橋",
+      "kana": "にほんばし nihombashi",
+      "area": "東京・銀座・新橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "ningyocho",
+      "name": "人形町（水天宮前）",
+      "kana": "にんぎょうちょう すいてんぐうまえ ningyocho",
+      "area": "東京・銀座・新橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "hamacho",
+      "name": "浜町",
+      "kana": "はまちょう hamacho",
+      "area": "東京・銀座・新橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "bakuro_yokoyama",
+      "name": "馬喰横山（東日本橋・馬喰町）",
+      "kana": "ばくろよこやま ひがしにほんばし bakuroyokoyama",
+      "area": "東京・銀座・新橋",
+      "barrierFree": "地下連絡通路・エレベーター完備（新宿線〜浅草線乗換）"
+    },
+    {
+      "id": "iwamotocho",
+      "name": "岩本町（秋葉原）",
+      "kana": "いわもとちょう あきはばら akihabara iwamotocho",
+      "area": "東京・銀座・新橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "otemachi",
+      "name": "大手町（東京駅丸の内口）",
+      "kana": "おおてまち とうきょう otemachi tokyo",
+      "area": "東京・銀座・新橋",
+      "barrierFree": "エレベーター・地下通路完備"
+    },
+    {
+      "id": "hibiya",
+      "name": "日比谷（有楽町）",
+      "kana": "ひびや ゆうらくちょう hibiya yurakucho",
+      "area": "東京・銀座・新橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "uchisaiwaicho",
+      "name": "内幸町（霞ケ関）",
+      "kana": "うちさいわいちょう かすみがせき uchisaiwaicho",
+      "area": "東京・銀座・新橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "ichigaya",
+      "name": "市ヶ谷",
+      "kana": "いちがや ichigaya",
+      "area": "千代田・文京・飯田橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kudanshita",
+      "name": "九段下",
+      "kana": "くだんした kudanshita",
+      "area": "千代田・文京・飯田橋",
+      "barrierFree": "対面ホーム乗換（新宿線〜半蔵門線）・エレベーター完備"
+    },
+    {
+      "id": "jimbocho",
+      "name": "神保町",
+      "kana": "じんぼうちょう jimbocho",
+      "area": "千代田・文京・飯田橋",
+      "barrierFree": "エレベーター完備（都営新宿線〜三田線乗換拠点）"
+    },
+    {
+      "id": "suidobashi",
+      "name": "水道橋",
+      "kana": "すいどうばし suidobashi",
+      "area": "千代田・文京・飯田橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "ogawamachi",
+      "name": "小川町（淡路町・新御茶ノ水・御茶ノ水）",
+      "kana": "おがわまち おちゃのみず あわじちょう ochanomizu ogawamachi",
+      "area": "千代田・文京・飯田橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "iidabashi",
+      "name": "飯田橋",
+      "kana": "いいだばし iidabashi",
+      "area": "千代田・文京・飯田橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kasuga",
+      "name": "春日（後楽園）",
+      "kana": "かすが こうらくえん kasuga korakuen",
+      "area": "千代田・文京・飯田橋",
+      "barrierFree": "エレベーター完備（三田線〜大江戸線改札内乗換）"
+    },
+    {
+      "id": "sengoku",
+      "name": "千石",
+      "kana": "せんごく sengoku",
+      "area": "千代田・文京・飯田橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "hakusan",
+      "name": "白山",
+      "kana": "はくさん hakusan",
+      "area": "千代田・文京・飯田橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "hongo_sanchome",
+      "name": "本郷三丁目",
+      "kana": "ほんごうさんちょうめ hongosanchome",
+      "area": "千代田・文京・飯田橋",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "nakai",
+      "name": "中井",
+      "kana": "なかい nakai",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "エレベーター完備（大江戸線〜西武新宿線乗換）"
+    },
+    {
+      "id": "asakusabashi",
+      "name": "浅草橋",
+      "kana": "あさくさばし asakusabashi",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備（JR総武線〜都営浅草線乗換）"
+    },
+    {
+      "id": "ueno_okachimachi",
+      "name": "上野御徒町（上野・御徒町・仲御徒町）",
+      "kana": "うえのおかちまち うえの ueno",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター・地下通路完備"
+    },
+    {
+      "id": "shin_okachimachi",
+      "name": "新御徒町",
+      "kana": "しんおかちまち shinokachimachi",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kuramae",
+      "name": "蔵前",
+      "kana": "くらまえ kuramae",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備（※浅草線〜大江戸線は地上乗換）"
+    },
+    {
+      "id": "asakusa",
+      "name": "浅草",
+      "kana": "あさくさ asakusa",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "honjo_azumabashi",
+      "name": "本所吾妻橋",
+      "kana": "ほんじょあづまばし honjoazumabashi",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "oshiage",
+      "name": "押上（スカイツリー前）",
+      "kana": "おしあげ すかいつりー oshiage skytree",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "kinshicho",
+      "name": "錦糸町",
+      "kana": "きんしちょう kinshicho",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kameido",
+      "name": "亀戸",
+      "kana": "かめいど kameido",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "ryogoku",
+      "name": "両国",
+      "kana": "りょうごく ryogoku",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "morishita",
+      "name": "森下",
+      "kana": "もりした morishita",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備（新宿線〜大江戸線改札内乗換）"
+    },
+    {
+      "id": "kikukawa",
+      "name": "菊川",
+      "kana": "きくかわ kikukawa",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "sumiyoshi",
+      "name": "住吉",
+      "kana": "すみよし sumiyoshi",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "nishi_ojima",
+      "name": "西大島",
+      "kana": "にしおおじま nishiojima",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "ojima",
+      "name": "大島",
+      "kana": "おおじま ojima",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "higashi_ojima",
+      "name": "東大島",
+      "kana": "ひがしおおじま higashiojima",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "funabori",
+      "name": "船堀",
+      "kana": "ふなぼり funabori",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター・スロープ完備"
+    },
+    {
+      "id": "ichinoe",
+      "name": "一之江",
+      "kana": "いちのえ ichinoe",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "mizue",
+      "name": "瑞江",
+      "kana": "みずえ mizue",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "shinozaki",
+      "name": "篠崎",
+      "kana": "しのざき shinozaki",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kiyosumi_shirakawa",
+      "name": "清澄白河",
+      "kana": "きよすみしらかわ kiyosumishirakawa",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "monzen_nakacho",
+      "name": "門前仲町",
+      "kana": "もんぜんなかちょう monzennakacho",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kachidoki",
+      "name": "勝どき",
+      "kana": "かちどき kachidoki",
+      "area": "湾岸・豊洲・お台場",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "tsukishima",
+      "name": "月島",
+      "kana": "つきしま tsukishima",
+      "area": "湾岸・豊洲・お台場",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "toyosu",
+      "name": "豊洲",
+      "kana": "とよす toyosu",
+      "area": "湾岸・豊洲・お台場",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "daiba",
+      "name": "お台場海浜公園（東京テレポート）",
+      "kana": "おだいば とうきょうてれぽーと odaiba",
+      "area": "湾岸・豊洲・お台場",
+      "barrierFree": "エレベーター・スロープ完備"
+    },
+    {
+      "id": "ikebukuro",
+      "name": "池袋",
+      "kana": "いけぶくろ ikebukuro",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター・多機能トイレ完備"
+    },
+    {
+      "id": "sugamo",
+      "name": "巣鴨",
+      "kana": "すがも sugamo",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備（JR〜都営三田線乗換）"
+    },
+    {
+      "id": "nishi_sugamo",
+      "name": "西巣鴨",
+      "kana": "にしすがも nishisugamo",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "shin_itabashi",
+      "name": "新板橋（板橋）",
+      "kana": "しんいたばし いたばし itabashi",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "itabashi_kuyakushomae",
+      "name": "板橋区役所前",
+      "kana": "いたばしくやくしょまえ itabashikuyakushomae",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "itabashi_honcho",
+      "name": "板橋本町",
+      "kana": "いたばしほんちょう itabashihoncho",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "motohasunuma",
+      "name": "本蓮沼",
+      "kana": "もとはすぬま motohasunuma",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "shimura_sakaue",
+      "name": "志村坂上",
+      "kana": "しむらさかうえ shimurasakaue",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "shimura_sanchome",
+      "name": "志村三丁目",
+      "kana": "しむらさんちょうめ shimurasanchome",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "hasune",
+      "name": "蓮根",
+      "kana": "はすね hasune",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "nishidai",
+      "name": "西台",
+      "kana": "にしだい nishidai",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "takashimadaira",
+      "name": "高島平",
+      "kana": "たかしまだいら takashimadaira",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "nishi_takashimadaira",
+      "name": "西高島平",
+      "kana": "にしたかしまだいら nishitakashimadaira",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "ochiai_minaminagasaki",
+      "name": "落合南長崎",
+      "kana": "おちあいみなみながさき ochiaiminaminagasaki",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "shin_egota",
+      "name": "新江古田",
+      "kana": "しんえごた shinegota",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "nerima",
+      "name": "練馬",
+      "kana": "ねりま nerima",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "toshimaen",
+      "name": "豊島園",
+      "kana": "としまえん toshimaen",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "nerima_kasugacho",
+      "name": "練馬春日町",
+      "kana": "ねりまかすがちょう nerimakasugacho",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "hikarigaoka",
+      "name": "光が丘",
+      "kana": "ひかりがおか hikarigaoka",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備（都営大江戸線始発）"
+    },
+    {
+      "id": "nippori",
+      "name": "日暮里",
+      "kana": "にっぽり nippori",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備（舎人ライナー始発）"
+    },
+    {
+      "id": "nishi_nippori",
+      "name": "西日暮里",
+      "kana": "にしにっぽり nishinippori",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "akado_shogakkomae",
+      "name": "赤土小学校前",
+      "kana": "あかどしょうがっこうまえ akadoshogakkomae",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kumanomae",
+      "name": "熊野前",
+      "kana": "くまのまえ kumanomae",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター・スロープ完備（都電〜舎人ライナー乗換）"
+    },
+    {
+      "id": "adachi_odai",
+      "name": "足立小台",
+      "kana": "あだちおだい adachiodai",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "ogi_ohashi",
+      "name": "扇大橋",
+      "kana": "おうぎおおはし ogiohashi",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "takano",
+      "name": "高野",
+      "kana": "こうや takano koya",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kohoku",
+      "name": "江北",
+      "kana": "こうほく kohoku",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "nishiaraidaishi_nishi",
+      "name": "西新井大師西",
+      "kana": "にしあらいだいしにし nishiaraidaishinishi",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "yazaike",
+      "name": "谷在家",
+      "kana": "やざいけ yazaike",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "toneri_koen",
+      "name": "舎人公園",
+      "kana": "とねりこうえん tonerikoen",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "toneri",
+      "name": "舎人",
+      "kana": "とねり toneri",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "minumadai_shinsuikoen",
+      "name": "見沼代親水公園",
+      "kana": "みぬまだいしんすいこうえん minumadai",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "omokagebashi",
+      "name": "面影橋",
+      "kana": "おもかげばし omokagebashi",
+      "area": "新宿・中野・杉並",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "gakushuinshita",
+      "name": "学習院下",
+      "kana": "がくしゅういんした gakushuinshita",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "kishibojimmae",
+      "name": "鬼子母神前（雑司が谷）",
+      "kana": "きしぼじんまえ ぞうしがや kishibojimmae zoshigaya",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備（副都心線雑司が谷乗換）"
+    },
+    {
+      "id": "toden_zoshigaya",
+      "name": "都電雑司ヶ谷",
+      "kana": "とでんぞうしがや todenzoshigaya",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "higashi_ikebukuro_yonchome",
+      "name": "東池袋四丁目（東池袋・サンシャイン前）",
+      "kana": "ひがしいけぶくろよんちょうめ ひがしいけぶくろ higashiikebukuroyonchome higashiikebukuro",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ・エレベーター完備（東京さくらトラム／有楽町線東池袋駅直結）"
+    },
+    {
+      "id": "mukohara",
+      "name": "向原",
+      "kana": "むこうはら mukohara",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "otsuka_ekimae",
+      "name": "大塚駅前（大塚）",
+      "kana": "おおつかえきまえ おおつか otsuka",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ・エレベーター完備"
+    },
+    {
+      "id": "sugamoshinden",
+      "name": "巣鴨新田",
+      "kana": "すがもしんでん sugamoshinden",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "koshinzuka",
+      "name": "庚申塚",
+      "kana": "こうしんづか koshinzuka",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "shin_koshinzuka",
+      "name": "新庚申塚（西巣鴨）",
+      "kana": "しんこうしんづか にしすがも shinkoshinzuka",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備（都営三田線西巣鴨駅乗換）"
+    },
+    {
+      "id": "nishigahara_yonchome",
+      "name": "西ヶ原四丁目",
+      "kana": "にしがはらよんちょうめ nishigaharayonchome",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "takino_gawa_itchome",
+      "name": "滝野川一丁目",
+      "kana": "たきのがわいっちょうめ takinogawaitchome",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "asambayama",
+      "name": "飛鳥山",
+      "kana": "あすかやま asukayama",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "oji_ekimae",
+      "name": "王子駅前（王子）",
+      "kana": "おうじえきまえ おうじ oji",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ・エレベーター完備"
+    },
+    {
+      "id": "sakaecho",
+      "name": "栄町",
+      "kana": "さかえちょう sakaecho",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "kajiwara",
+      "name": "梶原",
+      "kana": "かじわら kajiwara",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "arakawa_shakomae",
+      "name": "荒川車庫前",
+      "kana": "あらかわしゃこまえ arakawashakomae",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "arakawa_yuenchimae",
+      "name": "荒川遊園地前",
+      "kana": "あらかわゆうえんちまえ arakawayuenchimae",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "odai",
+      "name": "小台",
+      "kana": "おだい odai",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "miyano_mae",
+      "name": "宮ノ前",
+      "kana": "みやのまえ miyanomae",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "higashi_ogu_sanchome",
+      "name": "東尾久三丁目",
+      "kana": "ひがしおぐさんちょうめ higashiogusanchome",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "machiya_nichome",
+      "name": "町屋二丁目",
+      "kana": "まちやにちょうめ machiyanichome",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "machiya_ekimae",
+      "name": "町屋駅前（町屋）",
+      "kana": "まちやえきまえ まちや machiya",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ・エレベーター完備"
+    },
+    {
+      "id": "arakawa_nanachome",
+      "name": "荒川七丁目",
+      "kana": "あらかわななちょうめ arakawananachome",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "arakawa_nichome",
+      "name": "荒川二丁目",
+      "kana": "あらかわにちょうめ arakawanichome",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "arakawa_kuyakushomae",
+      "name": "荒川区役所前",
+      "kana": "あらかわくやくしょまえ arakawakuyakushomae",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "arakawa_itchumae",
+      "name": "荒川一中前",
+      "kana": "あらかわいっちゅうまえ arakawaitchumae",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "minowabashi",
+      "name": "三ノ輪橋（三ノ輪）",
+      "kana": "みのわばし みのわ minowa",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "スロープ完備"
+    },
+    {
+      "id": "akabane",
+      "name": "赤羽",
+      "kana": "あかばね akabane",
+      "area": "池袋・板橋・練馬・北",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kita_senju",
+      "name": "北千住",
+      "kana": "きたせんじゅ kitasenju",
+      "area": "上野・浅草・押上・江東",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "musashi_kosugi",
+      "name": "武蔵小杉",
+      "kana": "むさしこすぎ musashikosugi",
+      "area": "神奈川・埼玉・千葉",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "kawasaki",
+      "name": "川崎",
+      "kana": "かわさき kawasaki",
+      "area": "神奈川・埼玉・千葉",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "yokohama",
+      "name": "横浜",
+      "kana": "よこはま yokohama",
+      "area": "神奈川・埼玉・千葉",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "motoyawata",
+      "name": "本八幡",
+      "kana": "もとやわた motoyawata",
+      "area": "神奈川・埼玉・千葉",
+      "barrierFree": "エレベーター完備（都営新宿線終点）"
+    },
+    {
+      "id": "nishi_funabashi",
+      "name": "西船橋",
+      "kana": "にしふなばし nishifunabashi",
+      "area": "神奈川・埼玉・千葉",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "funabashi",
+      "name": "船橋",
+      "kana": "ふなばし funabashi",
+      "area": "神奈川・埼玉・千葉",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "chiba",
+      "name": "千葉",
+      "kana": "ちば chiba",
+      "area": "神奈川・埼玉・千葉",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "omiya",
+      "name": "大宮",
+      "kana": "おおみや omiya",
+      "area": "神奈川・埼玉・千葉",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "urawa",
+      "name": "浦和",
+      "kana": "うらわ urawa",
+      "area": "神奈川・埼玉・千葉",
+      "barrierFree": "エレベーター完備"
+    },
+    {
+      "id": "wakoshi",
+      "name": "和光市",
+      "kana": "わこうし wakoshi",
+      "area": "神奈川・埼玉・千葉",
+      "barrierFree": "エレベーター完備"
+    }
+  ],
+  "edges": [
+    {
+      "from": "takao",
+      "to": "hachioji",
+      "line": "JR_CHUO",
+      "minutes": 7,
+      "km": 5.7
+    },
+    {
+      "from": "hachioji",
+      "to": "tachikawa",
+      "line": "JR_CHUO",
+      "minutes": 10,
+      "km": 9.9
+    },
+    {
+      "from": "tachikawa",
+      "to": "kunitachi",
+      "line": "JR_CHUO",
+      "minutes": 3,
+      "km": 3
+    },
+    {
+      "from": "kunitachi",
+      "to": "nishi_kokubunji",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.7
+    },
+    {
+      "from": "nishi_kokubunji",
+      "to": "kokubunji",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.4
+    },
+    {
+      "from": "kokubunji",
+      "to": "musashi_koganei",
+      "line": "JR_CHUO",
+      "minutes": 3,
+      "km": 2.3
+    },
+    {
+      "from": "musashi_koganei",
+      "to": "higashi_koganei",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.7
+    },
+    {
+      "from": "higashi_koganei",
+      "to": "musashi_sakai",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.6
+    },
+    {
+      "from": "musashi_sakai",
+      "to": "mitaka",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.6
+    },
+    {
+      "from": "mitaka",
+      "to": "kichijoji",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.6
+    },
+    {
+      "from": "kichijoji",
+      "to": "nishi_ogikubo",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.9
+    },
+    {
+      "from": "nishi_ogikubo",
+      "to": "ogikubo",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.9
+    },
+    {
+      "from": "ogikubo",
+      "to": "asagaya",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.4
+    },
+    {
+      "from": "asagaya",
+      "to": "koenji",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.2
+    },
+    {
+      "from": "koenji",
+      "to": "nakano",
+      "line": "JR_CHUO",
+      "minutes": 3,
+      "km": 2.2
+    },
+    {
+      "from": "nakano",
+      "to": "higashi_nakano",
+      "line": "JR_CHUO",
+      "minutes": 3,
+      "km": 1.9
+    },
+    {
+      "from": "higashi_nakano",
+      "to": "okubo",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "okubo",
+      "to": "shinjuku",
+      "line": "JR_CHUO",
+      "minutes": 3,
+      "km": 1.4
+    },
+    {
+      "from": "shinjuku",
+      "to": "yoyogi",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "yoyogi",
+      "to": "kokuritsu_kyogijo",
+      "line": "JR_CHUO",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "kokuritsu_kyogijo",
+      "to": "yotsuya",
+      "line": "JR_CHUO",
+      "minutes": 3,
+      "km": 2
+    },
+    {
+      "from": "yotsuya",
+      "to": "ichigaya",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "ichigaya",
+      "to": "iidabashi",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.5
+    },
+    {
+      "from": "iidabashi",
+      "to": "suidobashi",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "suidobashi",
+      "to": "ogawamachi",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.2
+    },
+    {
+      "from": "ogawamachi",
+      "to": "iwamotocho",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "iwamotocho",
+      "to": "bakuro_yokoyama",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "bakuro_yokoyama",
+      "to": "asakusabashi",
+      "line": "JR_CHUO",
+      "minutes": 1,
+      "km": 0.6
+    },
+    {
+      "from": "asakusabashi",
+      "to": "ryogoku",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "ryogoku",
+      "to": "kinshicho",
+      "line": "JR_CHUO",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "kinshicho",
+      "to": "kameido",
+      "line": "JR_CHUO",
+      "minutes": 2,
+      "km": 1.5
+    },
+    {
+      "from": "kameido",
+      "to": "motoyawata",
+      "line": "JR_CHUO",
+      "minutes": 12,
+      "km": 10.8
+    },
+    {
+      "from": "motoyawata",
+      "to": "nishi_funabashi",
+      "line": "JR_CHUO",
+      "minutes": 3,
+      "km": 2.6
+    },
+    {
+      "from": "nishi_funabashi",
+      "to": "funabashi",
+      "line": "JR_CHUO",
+      "minutes": 3,
+      "km": 2.6
+    },
+    {
+      "from": "funabashi",
+      "to": "chiba",
+      "line": "JR_CHUO",
+      "minutes": 16,
+      "km": 16
+    },
+    {
+      "from": "musashi_koganei",
+      "to": "fuchu",
+      "line": "KEIO_BUS_LINE",
+      "minutes": 18,
+      "km": 4.3
+    },
+    {
+      "from": "musashi_koganei",
+      "to": "higashi_fuchu",
+      "line": "KEIO_BUS_LINE",
+      "minutes": 16,
+      "km": 3.9
+    },
+    {
+      "from": "musashi_koganei",
+      "to": "chofu",
+      "line": "KEIO_BUS_LINE",
+      "minutes": 28,
+      "km": 7.2
+    },
+    {
+      "from": "musashi_koganei",
+      "to": "hanakoganei",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 10,
+      "km": 2.6
+    },
+    {
+      "from": "hanakoganei",
+      "to": "kodaira",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 8,
+      "km": 2
+    },
+    {
+      "from": "kokubunji",
+      "to": "kodaira",
+      "line": "SEIBU_SHINJUKU",
+      "minutes": 5,
+      "km": 3.5
+    },
+    {
+      "from": "kodaira",
+      "to": "tokorozawa",
+      "line": "SEIBU_SHINJUKU",
+      "minutes": 10,
+      "km": 7.9
+    },
+    {
+      "from": "tokorozawa",
+      "to": "nerima",
+      "line": "SEIBU_SHINJUKU",
+      "minutes": 19,
+      "km": 18.8
+    },
+    {
+      "from": "kodaira",
+      "to": "hanakoganei",
+      "line": "SEIBU_SHINJUKU",
+      "minutes": 3,
+      "km": 2.3
+    },
+    {
+      "from": "hanakoganei",
+      "to": "tanashi",
+      "line": "SEIBU_SHINJUKU",
+      "minutes": 3,
+      "km": 2.3
+    },
+    {
+      "from": "tanashi",
+      "to": "takadanobaba",
+      "line": "SEIBU_SHINJUKU",
+      "minutes": 17,
+      "km": 16.3
+    },
+    {
+      "from": "nishi_kokubunji",
+      "to": "bubaigawara",
+      "line": "JR_MUSASHINO",
+      "minutes": 5,
+      "km": 3.9
+    },
+    {
+      "from": "tachikawa",
+      "to": "bubaigawara",
+      "line": "JR_MUSASHINO",
+      "minutes": 8,
+      "km": 5.5
+    },
+    {
+      "from": "bubaigawara",
+      "to": "musashi_kosugi",
+      "line": "JR_MUSASHINO",
+      "minutes": 31,
+      "km": 22
+    },
+    {
+      "from": "musashi_kosugi",
+      "to": "kawasaki",
+      "line": "JR_MUSASHINO",
+      "minutes": 12,
+      "km": 7.5
+    },
+    {
+      "from": "hachioji",
+      "to": "bubaigawara",
+      "line": "KEIO_MAIN",
+      "minutes": 14,
+      "km": 14.8
+    },
+    {
+      "from": "bubaigawara",
+      "to": "fuchu",
+      "line": "KEIO_MAIN",
+      "minutes": 2,
+      "km": 1.2
+    },
+    {
+      "from": "fuchu",
+      "to": "higashi_fuchu",
+      "line": "KEIO_MAIN",
+      "minutes": 2,
+      "km": 1.5
+    },
+    {
+      "from": "higashi_fuchu",
+      "to": "chofu",
+      "line": "KEIO_MAIN",
+      "minutes": 5,
+      "km": 4.9
+    },
+    {
+      "from": "chofu",
+      "to": "tsutsujigaoka",
+      "line": "KEIO_MAIN",
+      "minutes": 3,
+      "km": 2.5
+    },
+    {
+      "from": "tsutsujigaoka",
+      "to": "chitose_karasuyama",
+      "line": "KEIO_MAIN",
+      "minutes": 3,
+      "km": 2.5
+    },
+    {
+      "from": "chitose_karasuyama",
+      "to": "sakurajosui",
+      "line": "KEIO_MAIN",
+      "minutes": 4,
+      "km": 2.7
+    },
+    {
+      "from": "sakurajosui",
+      "to": "meidaimae",
+      "line": "KEIO_MAIN",
+      "minutes": 3,
+      "km": 2.6
+    },
+    {
+      "from": "meidaimae",
+      "to": "sasazuka",
+      "line": "KEIO_MAIN",
+      "minutes": 3,
+      "km": 1.6
+    },
+    {
+      "from": "sasazuka",
+      "to": "shinjuku",
+      "line": "KEIO_MAIN",
+      "minutes": 5,
+      "km": 3.6
+    },
+    {
+      "from": "hikarigaoka",
+      "to": "nerima_kasugacho",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 1.4
+    },
+    {
+      "from": "nerima_kasugacho",
+      "to": "toshimaen",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 1.5
+    },
+    {
+      "from": "toshimaen",
+      "to": "nerima",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "nerima",
+      "to": "shin_egota",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.6
+    },
+    {
+      "from": "shin_egota",
+      "to": "ochiai_minaminagasaki",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 1.3
+    },
+    {
+      "from": "ochiai_minaminagasaki",
+      "to": "nakai",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 1.3
+    },
+    {
+      "from": "nakai",
+      "to": "higashi_nakano",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 1.3
+    },
+    {
+      "from": "higashi_nakano",
+      "to": "nakano_sakaue",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "nakano_sakaue",
+      "to": "nishi_shinjuku_gochome",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 1.2
+    },
+    {
+      "from": "nishi_shinjuku_gochome",
+      "to": "tocho_mae",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "tocho_mae",
+      "to": "shinjuku",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "shinjuku",
+      "to": "yoyogi",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.6
+    },
+    {
+      "from": "yoyogi",
+      "to": "kokuritsu_kyogijo",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "kokuritsu_kyogijo",
+      "to": "aoyama_itchome",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.2
+    },
+    {
+      "from": "aoyama_itchome",
+      "to": "roppongi",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.3
+    },
+    {
+      "from": "roppongi",
+      "to": "azabu_juban",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.1
+    },
+    {
+      "from": "azabu_juban",
+      "to": "akabanebashi",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "akabanebashi",
+      "to": "daimon",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.3
+    },
+    {
+      "from": "daimon",
+      "to": "shiodome",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "shiodome",
+      "to": "tsukijishijo",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.2
+    },
+    {
+      "from": "tsukijishijo",
+      "to": "kachidoki",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "kachidoki",
+      "to": "tsukishima",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "tsukishima",
+      "to": "monzen_nakacho",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.4
+    },
+    {
+      "from": "monzen_nakacho",
+      "to": "kiyosumi_shirakawa",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.2
+    },
+    {
+      "from": "kiyosumi_shirakawa",
+      "to": "morishita",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.6
+    },
+    {
+      "from": "morishita",
+      "to": "ryogoku",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "ryogoku",
+      "to": "kuramae",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.2
+    },
+    {
+      "from": "kuramae",
+      "to": "shin_okachimachi",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "shin_okachimachi",
+      "to": "ueno_okachimachi",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "ueno_okachimachi",
+      "to": "hongo_sanchome",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.1
+    },
+    {
+      "from": "hongo_sanchome",
+      "to": "kasuga",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "kasuga",
+      "to": "iidabashi",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.4
+    },
+    {
+      "from": "iidabashi",
+      "to": "ushigome_kagurazaka",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "ushigome_kagurazaka",
+      "to": "ushigome_yanagicho",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "ushigome_yanagicho",
+      "to": "wakamatsu_kawada",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.6
+    },
+    {
+      "from": "wakamatsu_kawada",
+      "to": "higashi_shinjuku",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "higashi_shinjuku",
+      "to": "shinjuku_nishiguchi",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 1.4
+    },
+    {
+      "from": "shinjuku_nishiguchi",
+      "to": "tocho_mae",
+      "line": "TOEI_OEDO",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "shinjuku_nishiguchi",
+      "to": "shinjuku",
+      "line": "TOEI_OEDO",
+      "minutes": 3,
+      "km": 0.3
+    },
+    {
+      "from": "shinjuku",
+      "to": "shinjuku_sanchome",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "shinjuku_sanchome",
+      "to": "akebonobashi",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 1.5
+    },
+    {
+      "from": "akebonobashi",
+      "to": "ichigaya",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 3,
+      "km": 1.2
+    },
+    {
+      "from": "ichigaya",
+      "to": "kudanshita",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 1.3
+    },
+    {
+      "from": "kudanshita",
+      "to": "jimbocho",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 0.6
+    },
+    {
+      "from": "jimbocho",
+      "to": "ogawamachi",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "ogawamachi",
+      "to": "iwamotocho",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "iwamotocho",
+      "to": "bakuro_yokoyama",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "bakuro_yokoyama",
+      "to": "hamacho",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 0.6
+    },
+    {
+      "from": "hamacho",
+      "to": "morishita",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "morishita",
+      "to": "kikukawa",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "kikukawa",
+      "to": "sumiyoshi",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "sumiyoshi",
+      "to": "nishi_ojima",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "nishi_ojima",
+      "to": "ojima",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "ojima",
+      "to": "higashi_ojima",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 1.2
+    },
+    {
+      "from": "higashi_ojima",
+      "to": "funabori",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 1.7
+    },
+    {
+      "from": "funabori",
+      "to": "ichinoe",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 3,
+      "km": 2.5
+    },
+    {
+      "from": "ichinoe",
+      "to": "mizue",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 2,
+      "km": 1.7
+    },
+    {
+      "from": "mizue",
+      "to": "shinozaki",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "shinozaki",
+      "to": "motoyawata",
+      "line": "TOEI_SHINJUKU",
+      "minutes": 3,
+      "km": 2.8
+    },
+    {
+      "from": "meguro",
+      "to": "shirokanedai",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 1.3
+    },
+    {
+      "from": "shirokanedai",
+      "to": "shirokane_takanawa",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "shirokane_takanawa",
+      "to": "mita",
+      "line": "TOEI_MITA",
+      "minutes": 3,
+      "km": 1.7
+    },
+    {
+      "from": "mita",
+      "to": "shibakoen",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 0.6
+    },
+    {
+      "from": "shibakoen",
+      "to": "onamon",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "onamon",
+      "to": "uchisaiwaicho",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "uchisaiwaicho",
+      "to": "hibiya",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "hibiya",
+      "to": "otemachi",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "otemachi",
+      "to": "jimbocho",
+      "line": "TOEI_MITA",
+      "minutes": 3,
+      "km": 1.7
+    },
+    {
+      "from": "jimbocho",
+      "to": "suidobashi",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "suidobashi",
+      "to": "kasuga",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "kasuga",
+      "to": "hakusan",
+      "line": "TOEI_MITA",
+      "minutes": 3,
+      "km": 1.4
+    },
+    {
+      "from": "hakusan",
+      "to": "sengoku",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "sengoku",
+      "to": "sugamo",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "sugamo",
+      "to": "nishi_sugamo",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 1.4
+    },
+    {
+      "from": "nishi_sugamo",
+      "to": "shin_itabashi",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "shin_itabashi",
+      "to": "itabashi_kuyakushomae",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "itabashi_kuyakushomae",
+      "to": "itabashi_honcho",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 1.2
+    },
+    {
+      "from": "itabashi_honcho",
+      "to": "motohasunuma",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "motohasunuma",
+      "to": "shimura_sakaue",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "shimura_sakaue",
+      "to": "shimura_sanchome",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "shimura_sanchome",
+      "to": "hasune",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 1.2
+    },
+    {
+      "from": "hasune",
+      "to": "nishidai",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "nishidai",
+      "to": "takashimadaira",
+      "line": "TOEI_MITA",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "takashimadaira",
+      "to": "nishi_takashimadaira",
+      "line": "TOEI_MITA",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "magome",
+      "to": "nakanobu",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 3,
+      "km": 1.9
+    },
+    {
+      "from": "nakanobu",
+      "to": "togoshi",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "togoshi",
+      "to": "gotanda",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "gotanda",
+      "to": "takanawadai",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "takanawadai",
+      "to": "sengakuji",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 3,
+      "km": 1.4
+    },
+    {
+      "from": "sengakuji",
+      "to": "mita",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "mita",
+      "to": "daimon",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "daimon",
+      "to": "shiodome",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "shiodome",
+      "to": "higashi_ginza",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "higashi_ginza",
+      "to": "takara_cho",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "takara_cho",
+      "to": "nihombashi",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "nihombashi",
+      "to": "ningyocho",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "ningyocho",
+      "to": "bakuro_yokoyama",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "bakuro_yokoyama",
+      "to": "asakusabashi",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "asakusabashi",
+      "to": "kuramae",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "kuramae",
+      "to": "asakusa",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "asakusa",
+      "to": "honjo_azumabashi",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "honjo_azumabashi",
+      "to": "oshiage",
+      "line": "TOEI_ASAKUSA",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "nippori",
+      "to": "nishi_nippori",
+      "line": "TOEI_TONERI",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "nishi_nippori",
+      "to": "akado_shogakkomae",
+      "line": "TOEI_TONERI",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "akado_shogakkomae",
+      "to": "kumanomae",
+      "line": "TOEI_TONERI",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "kumanomae",
+      "to": "adachi_odai",
+      "line": "TOEI_TONERI",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "adachi_odai",
+      "to": "ogi_ohashi",
+      "line": "TOEI_TONERI",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "ogi_ohashi",
+      "to": "takano",
+      "line": "TOEI_TONERI",
+      "minutes": 1,
+      "km": 0.5
+    },
+    {
+      "from": "takano",
+      "to": "kohoku",
+      "line": "TOEI_TONERI",
+      "minutes": 1,
+      "km": 0.6
+    },
+    {
+      "from": "kohoku",
+      "to": "nishiaraidaishi_nishi",
+      "line": "TOEI_TONERI",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "nishiaraidaishi_nishi",
+      "to": "yazaike",
+      "line": "TOEI_TONERI",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "yazaike",
+      "to": "toneri_koen",
+      "line": "TOEI_TONERI",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "toneri_koen",
+      "to": "toneri",
+      "line": "TOEI_TONERI",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "toneri",
+      "to": "minumadai_shinsuikoen",
+      "line": "TOEI_TONERI",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "waseda",
+      "to": "omokagebashi",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.5
+    },
+    {
+      "from": "omokagebashi",
+      "to": "gakushuinshita",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.5
+    },
+    {
+      "from": "gakushuinshita",
+      "to": "kishibojimmae",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "kishibojimmae",
+      "to": "toden_zoshigaya",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.5
+    },
+    {
+      "from": "toden_zoshigaya",
+      "to": "higashi_ikebukuro_yonchome",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "higashi_ikebukuro_yonchome",
+      "to": "mukohara",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "mukohara",
+      "to": "otsuka_ekimae",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.5
+    },
+    {
+      "from": "otsuka_ekimae",
+      "to": "sugamoshinden",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.5
+    },
+    {
+      "from": "sugamoshinden",
+      "to": "koshinzuka",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "koshinzuka",
+      "to": "shin_koshinzuka",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 1,
+      "km": 0.3
+    },
+    {
+      "from": "shin_koshinzuka",
+      "to": "nishigahara_yonchome",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "nishigahara_yonchome",
+      "to": "takino_gawa_itchome",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "takino_gawa_itchome",
+      "to": "asambayama",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "asambayama",
+      "to": "oji_ekimae",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.5
+    },
+    {
+      "from": "oji_ekimae",
+      "to": "sakaecho",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "sakaecho",
+      "to": "kajiwara",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.5
+    },
+    {
+      "from": "kajiwara",
+      "to": "arakawa_shakomae",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "arakawa_shakomae",
+      "to": "arakawa_yuenchimae",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.3
+    },
+    {
+      "from": "arakawa_yuenchimae",
+      "to": "odai",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "odai",
+      "to": "miyano_mae",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.3
+    },
+    {
+      "from": "miyano_mae",
+      "to": "kumanomae",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "kumanomae",
+      "to": "higashi_ogu_sanchome",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "higashi_ogu_sanchome",
+      "to": "machiya_nichome",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.3
+    },
+    {
+      "from": "machiya_nichome",
+      "to": "machiya_ekimae",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "machiya_ekimae",
+      "to": "arakawa_nanachome",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.3
+    },
+    {
+      "from": "arakawa_nanachome",
+      "to": "arakawa_nichome",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "arakawa_nichome",
+      "to": "arakawa_kuyakushomae",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.3
+    },
+    {
+      "from": "arakawa_kuyakushomae",
+      "to": "arakawa_itchumae",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 1,
+      "km": 0.2
+    },
+    {
+      "from": "arakawa_itchumae",
+      "to": "minowabashi",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 2,
+      "km": 0.3
+    },
+    {
+      "from": "shin_koshinzuka",
+      "to": "nishi_sugamo",
+      "line": "TOEI_ARAKAWA",
+      "minutes": 3,
+      "km": 0.2
+    },
+    {
+      "from": "shibuya",
+      "to": "roppongi",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 15,
+      "km": 3.2
+    },
+    {
+      "from": "roppongi",
+      "to": "shiodome",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 15,
+      "km": 3.1
+    },
+    {
+      "from": "ikebukuro",
+      "to": "sugamo",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 12,
+      "km": 2.4
+    },
+    {
+      "from": "ikebukuro",
+      "to": "otsuka_ekimae",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 10,
+      "km": 1.9
+    },
+    {
+      "from": "otsuka_ekimae",
+      "to": "kasuga",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 14,
+      "km": 3
+    },
+    {
+      "from": "kasuga",
+      "to": "ueno_okachimachi",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 10,
+      "km": 2
+    },
+    {
+      "from": "ueno_okachimachi",
+      "to": "kuramae",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 8,
+      "km": 1.7
+    },
+    {
+      "from": "kuramae",
+      "to": "kinshicho",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 10,
+      "km": 2
+    },
+    {
+      "from": "kuramae",
+      "to": "oshiage",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 12,
+      "km": 2.3
+    },
+    {
+      "from": "nippori",
+      "to": "asakusa",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 14,
+      "km": 3.1
+    },
+    {
+      "from": "monzen_nakacho",
+      "to": "toyosu",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 12,
+      "km": 2.8
+    },
+    {
+      "from": "toyosu",
+      "to": "daiba",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 16,
+      "km": 4.2
+    },
+    {
+      "from": "kachidoki",
+      "to": "toyosu",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 11,
+      "km": 2.5
+    },
+    {
+      "from": "shibuya",
+      "to": "harajuku",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 8,
+      "km": 1.4
+    },
+    {
+      "from": "harajuku",
+      "to": "shinjuku_sanchome",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 14,
+      "km": 2.5
+    },
+    {
+      "from": "shinjuku_sanchome",
+      "to": "higashi_shinjuku",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 7,
+      "km": 1.2
+    },
+    {
+      "from": "higashi_shinjuku",
+      "to": "waseda",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 9,
+      "km": 1.7
+    },
+    {
+      "from": "higashi_shinjuku",
+      "to": "ikebukuro",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 18,
+      "km": 3.8
+    },
+    {
+      "from": "takadanobaba",
+      "to": "higashi_shinjuku",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 10,
+      "km": 2
+    },
+    {
+      "from": "takadanobaba",
+      "to": "waseda",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 7,
+      "km": 1.5
+    },
+    {
+      "from": "higashi_nakano",
+      "to": "takadanobaba",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 12,
+      "km": 2.3
+    },
+    {
+      "from": "shibuya",
+      "to": "ebisu",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 10,
+      "km": 1.8
+    },
+    {
+      "from": "ebisu",
+      "to": "shirokane_takanawa",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 12,
+      "km": 2.4
+    },
+    {
+      "from": "shirokane_takanawa",
+      "to": "mita",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 8,
+      "km": 1.7
+    },
+    {
+      "from": "sengakuji",
+      "to": "shinagawa",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 7,
+      "km": 1.3
+    },
+    {
+      "from": "kinshicho",
+      "to": "kameido",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 8,
+      "km": 1.5
+    },
+    {
+      "from": "kameido",
+      "to": "nishi_ojima",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 6,
+      "km": 1.2
+    },
+    {
+      "from": "oji_ekimae",
+      "to": "akabane",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 14,
+      "km": 3.2
+    },
+    {
+      "from": "shinjuku",
+      "to": "yoyogi",
+      "line": "JR_YAMANOTE",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "yoyogi",
+      "to": "harajuku",
+      "line": "JR_YAMANOTE",
+      "minutes": 2,
+      "km": 1.5
+    },
+    {
+      "from": "harajuku",
+      "to": "shibuya",
+      "line": "JR_YAMANOTE",
+      "minutes": 3,
+      "km": 1.2
+    },
+    {
+      "from": "shibuya",
+      "to": "ebisu",
+      "line": "JR_YAMANOTE",
+      "minutes": 3,
+      "km": 1.6
+    },
+    {
+      "from": "ebisu",
+      "to": "meguro",
+      "line": "JR_YAMANOTE",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "meguro",
+      "to": "gotanda",
+      "line": "JR_YAMANOTE",
+      "minutes": 2,
+      "km": 1.2
+    },
+    {
+      "from": "gotanda",
+      "to": "osaki",
+      "line": "JR_YAMANOTE",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "osaki",
+      "to": "shinagawa",
+      "line": "JR_YAMANOTE",
+      "minutes": 3,
+      "km": 2
+    },
+    {
+      "from": "shinagawa",
+      "to": "sengakuji",
+      "line": "JR_YAMANOTE",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "sengakuji",
+      "to": "mita",
+      "line": "JR_YAMANOTE",
+      "minutes": 3,
+      "km": 1.3
+    },
+    {
+      "from": "mita",
+      "to": "daimon",
+      "line": "JR_YAMANOTE",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "daimon",
+      "to": "shiodome",
+      "line": "JR_YAMANOTE",
+      "minutes": 2,
+      "km": 1.2
+    },
+    {
+      "from": "shiodome",
+      "to": "hibiya",
+      "line": "JR_YAMANOTE",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "hibiya",
+      "to": "otemachi",
+      "line": "JR_YAMANOTE",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "otemachi",
+      "to": "iwamotocho",
+      "line": "JR_YAMANOTE",
+      "minutes": 4,
+      "km": 2
+    },
+    {
+      "from": "iwamotocho",
+      "to": "ueno_okachimachi",
+      "line": "JR_YAMANOTE",
+      "minutes": 3,
+      "km": 1.6
+    },
+    {
+      "from": "ueno_okachimachi",
+      "to": "nippori",
+      "line": "JR_YAMANOTE",
+      "minutes": 4,
+      "km": 2.2
+    },
+    {
+      "from": "nippori",
+      "to": "nishi_nippori",
+      "line": "JR_YAMANOTE",
+      "minutes": 2,
+      "km": 0.5
+    },
+    {
+      "from": "nishi_nippori",
+      "to": "sugamo",
+      "line": "JR_YAMANOTE",
+      "minutes": 5,
+      "km": 2.8
+    },
+    {
+      "from": "sugamo",
+      "to": "otsuka_ekimae",
+      "line": "JR_YAMANOTE",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "otsuka_ekimae",
+      "to": "ikebukuro",
+      "line": "JR_YAMANOTE",
+      "minutes": 3,
+      "km": 1.8
+    },
+    {
+      "from": "ikebukuro",
+      "to": "takadanobaba",
+      "line": "JR_YAMANOTE",
+      "minutes": 4,
+      "km": 2.1
+    },
+    {
+      "from": "takadanobaba",
+      "to": "okubo",
+      "line": "JR_YAMANOTE",
+      "minutes": 3,
+      "km": 1.4
+    },
+    {
+      "from": "okubo",
+      "to": "shinjuku",
+      "line": "JR_YAMANOTE",
+      "minutes": 2,
+      "km": 1.3
+    },
+    {
+      "from": "omiya",
+      "to": "urawa",
+      "line": "JR_SAIKYO",
+      "minutes": 7,
+      "km": 6.1
+    },
+    {
+      "from": "urawa",
+      "to": "akabane",
+      "line": "JR_SAIKYO",
+      "minutes": 10,
+      "km": 11
+    },
+    {
+      "from": "akabane",
+      "to": "shin_itabashi",
+      "line": "JR_SAIKYO",
+      "minutes": 5,
+      "km": 3.7
+    },
+    {
+      "from": "shin_itabashi",
+      "to": "ikebukuro",
+      "line": "JR_SAIKYO",
+      "minutes": 3,
+      "km": 1.8
+    },
+    {
+      "from": "ikebukuro",
+      "to": "shinjuku",
+      "line": "JR_SAIKYO",
+      "minutes": 6,
+      "km": 4.8
+    },
+    {
+      "from": "shinjuku",
+      "to": "shibuya",
+      "line": "JR_SAIKYO",
+      "minutes": 5,
+      "km": 3.4
+    },
+    {
+      "from": "shibuya",
+      "to": "ebisu",
+      "line": "JR_SAIKYO",
+      "minutes": 2,
+      "km": 1.6
+    },
+    {
+      "from": "ebisu",
+      "to": "osaki",
+      "line": "JR_SAIKYO",
+      "minutes": 4,
+      "km": 3.6
+    },
+    {
+      "from": "nishi_nippori",
+      "to": "oji_ekimae",
+      "line": "JR_KEIHIN",
+      "minutes": 6,
+      "km": 3.5
+    },
+    {
+      "from": "oji_ekimae",
+      "to": "akabane",
+      "line": "JR_KEIHIN",
+      "minutes": 5,
+      "km": 3.4
+    },
+    {
+      "from": "shinagawa",
+      "to": "kamata",
+      "line": "JR_KEIHIN",
+      "minutes": 10,
+      "km": 9.6
+    },
+    {
+      "from": "kamata",
+      "to": "kawasaki",
+      "line": "JR_KEIHIN",
+      "minutes": 4,
+      "km": 3.8
+    },
+    {
+      "from": "kawasaki",
+      "to": "yokohama",
+      "line": "JR_KEIHIN",
+      "minutes": 8,
+      "km": 8.6
+    },
+    {
+      "from": "nippori",
+      "to": "kita_senju",
+      "line": "JR_JOBAN",
+      "minutes": 7,
+      "km": 5.2
+    },
+    {
+      "from": "shibuya",
+      "to": "omotesando",
+      "line": "METRO_GINZA",
+      "minutes": 2,
+      "km": 1.3
+    },
+    {
+      "from": "omotesando",
+      "to": "aoyama_itchome",
+      "line": "METRO_GINZA",
+      "minutes": 2,
+      "km": 1.3
+    },
+    {
+      "from": "aoyama_itchome",
+      "to": "akasaka_mitsuke",
+      "line": "METRO_GINZA",
+      "minutes": 2,
+      "km": 1.3
+    },
+    {
+      "from": "akasaka_mitsuke",
+      "to": "shiodome",
+      "line": "METRO_GINZA",
+      "minutes": 5,
+      "km": 2.8
+    },
+    {
+      "from": "shiodome",
+      "to": "higashi_ginza",
+      "line": "METRO_GINZA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "higashi_ginza",
+      "to": "nihombashi",
+      "line": "METRO_GINZA",
+      "minutes": 4,
+      "km": 1.7
+    },
+    {
+      "from": "nihombashi",
+      "to": "ogawamachi",
+      "line": "METRO_GINZA",
+      "minutes": 4,
+      "km": 1.9
+    },
+    {
+      "from": "ogawamachi",
+      "to": "ueno_okachimachi",
+      "line": "METRO_GINZA",
+      "minutes": 3,
+      "km": 1.6
+    },
+    {
+      "from": "ueno_okachimachi",
+      "to": "asakusa",
+      "line": "METRO_GINZA",
+      "minutes": 6,
+      "km": 2.8
+    },
+    {
+      "from": "ogikubo",
+      "to": "asagaya",
+      "line": "METRO_MARUNOUCHI",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "asagaya",
+      "to": "nakano_sakaue",
+      "line": "METRO_MARUNOUCHI",
+      "minutes": 8,
+      "km": 4.2
+    },
+    {
+      "from": "nakano_sakaue",
+      "to": "shinjuku",
+      "line": "METRO_MARUNOUCHI",
+      "minutes": 4,
+      "km": 1.9
+    },
+    {
+      "from": "shinjuku",
+      "to": "shinjuku_sanchome",
+      "line": "METRO_MARUNOUCHI",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "shinjuku_sanchome",
+      "to": "yotsuya",
+      "line": "METRO_MARUNOUCHI",
+      "minutes": 5,
+      "km": 2.8
+    },
+    {
+      "from": "yotsuya",
+      "to": "akasaka_mitsuke",
+      "line": "METRO_MARUNOUCHI",
+      "minutes": 3,
+      "km": 1.3
+    },
+    {
+      "from": "akasaka_mitsuke",
+      "to": "higashi_ginza",
+      "line": "METRO_MARUNOUCHI",
+      "minutes": 5,
+      "km": 2.7
+    },
+    {
+      "from": "higashi_ginza",
+      "to": "otemachi",
+      "line": "METRO_MARUNOUCHI",
+      "minutes": 4,
+      "km": 1.9
+    },
+    {
+      "from": "otemachi",
+      "to": "ogawamachi",
+      "line": "METRO_MARUNOUCHI",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "ogawamachi",
+      "to": "hongo_sanchome",
+      "line": "METRO_MARUNOUCHI",
+      "minutes": 3,
+      "km": 1.6
+    },
+    {
+      "from": "hongo_sanchome",
+      "to": "kasuga",
+      "line": "METRO_MARUNOUCHI",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "kasuga",
+      "to": "ikebukuro",
+      "line": "METRO_MARUNOUCHI",
+      "minutes": 8,
+      "km": 4.7
+    },
+    {
+      "from": "nakameguro",
+      "to": "ebisu",
+      "line": "METRO_HIBIYA",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "ebisu",
+      "to": "roppongi",
+      "line": "METRO_HIBIYA",
+      "minutes": 6,
+      "km": 3
+    },
+    {
+      "from": "roppongi",
+      "to": "hibiya",
+      "line": "METRO_HIBIYA",
+      "minutes": 8,
+      "km": 4.3
+    },
+    {
+      "from": "hibiya",
+      "to": "higashi_ginza",
+      "line": "METRO_HIBIYA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "higashi_ginza",
+      "to": "tsukijishijo",
+      "line": "METRO_HIBIYA",
+      "minutes": 2,
+      "km": 0.6
+    },
+    {
+      "from": "tsukijishijo",
+      "to": "ningyocho",
+      "line": "METRO_HIBIYA",
+      "minutes": 5,
+      "km": 2.3
+    },
+    {
+      "from": "ningyocho",
+      "to": "iwamotocho",
+      "line": "METRO_HIBIYA",
+      "minutes": 3,
+      "km": 1.3
+    },
+    {
+      "from": "iwamotocho",
+      "to": "ueno_okachimachi",
+      "line": "METRO_HIBIYA",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "ueno_okachimachi",
+      "to": "minowabashi",
+      "line": "METRO_HIBIYA",
+      "minutes": 5,
+      "km": 2.7
+    },
+    {
+      "from": "minowabashi",
+      "to": "kita_senju",
+      "line": "METRO_HIBIYA",
+      "minutes": 6,
+      "km": 3.5
+    },
+    {
+      "from": "mitaka",
+      "to": "kichijoji",
+      "line": "METRO_TOZAI",
+      "minutes": 2,
+      "km": 1.6
+    },
+    {
+      "from": "kichijoji",
+      "to": "nakano",
+      "line": "METRO_TOZAI",
+      "minutes": 12,
+      "km": 8.2
+    },
+    {
+      "from": "nakano",
+      "to": "takadanobaba",
+      "line": "METRO_TOZAI",
+      "minutes": 6,
+      "km": 3.9
+    },
+    {
+      "from": "takadanobaba",
+      "to": "waseda",
+      "line": "METRO_TOZAI",
+      "minutes": 3,
+      "km": 1.7
+    },
+    {
+      "from": "waseda",
+      "to": "iidabashi",
+      "line": "METRO_TOZAI",
+      "minutes": 5,
+      "km": 2.4
+    },
+    {
+      "from": "iidabashi",
+      "to": "kudanshita",
+      "line": "METRO_TOZAI",
+      "minutes": 2,
+      "km": 0.7
+    },
+    {
+      "from": "kudanshita",
+      "to": "otemachi",
+      "line": "METRO_TOZAI",
+      "minutes": 4,
+      "km": 2.1
+    },
+    {
+      "from": "otemachi",
+      "to": "nihombashi",
+      "line": "METRO_TOZAI",
+      "minutes": 2,
+      "km": 0.8
+    },
+    {
+      "from": "nihombashi",
+      "to": "monzen_nakacho",
+      "line": "METRO_TOZAI",
+      "minutes": 4,
+      "km": 2.3
+    },
+    {
+      "from": "monzen_nakacho",
+      "to": "nishi_funabashi",
+      "line": "METRO_TOZAI",
+      "minutes": 21,
+      "km": 15.8
+    },
+    {
+      "from": "shibuya",
+      "to": "omotesando",
+      "line": "METRO_HANZOMON",
+      "minutes": 2,
+      "km": 1.3
+    },
+    {
+      "from": "omotesando",
+      "to": "aoyama_itchome",
+      "line": "METRO_HANZOMON",
+      "minutes": 2,
+      "km": 1.4
+    },
+    {
+      "from": "aoyama_itchome",
+      "to": "akasaka_mitsuke",
+      "line": "METRO_HANZOMON",
+      "minutes": 2,
+      "km": 1.3
+    },
+    {
+      "from": "akasaka_mitsuke",
+      "to": "kudanshita",
+      "line": "METRO_HANZOMON",
+      "minutes": 6,
+      "km": 2.8
+    },
+    {
+      "from": "kudanshita",
+      "to": "jimbocho",
+      "line": "METRO_HANZOMON",
+      "minutes": 2,
+      "km": 0.4
+    },
+    {
+      "from": "jimbocho",
+      "to": "otemachi",
+      "line": "METRO_HANZOMON",
+      "minutes": 3,
+      "km": 1.7
+    },
+    {
+      "from": "otemachi",
+      "to": "kiyosumi_shirakawa",
+      "line": "METRO_HANZOMON",
+      "minutes": 7,
+      "km": 3.8
+    },
+    {
+      "from": "kiyosumi_shirakawa",
+      "to": "sumiyoshi",
+      "line": "METRO_HANZOMON",
+      "minutes": 3,
+      "km": 1.9
+    },
+    {
+      "from": "sumiyoshi",
+      "to": "kinshicho",
+      "line": "METRO_HANZOMON",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "kinshicho",
+      "to": "oshiage",
+      "line": "METRO_HANZOMON",
+      "minutes": 3,
+      "km": 1.4
+    },
+    {
+      "from": "wakoshi",
+      "to": "nerima",
+      "line": "METRO_YURAKUCHO",
+      "minutes": 10,
+      "km": 6.8
+    },
+    {
+      "from": "hikarigaoka",
+      "to": "nerima",
+      "line": "METRO_YURAKUCHO",
+      "minutes": 8,
+      "km": 5.2
+    },
+    {
+      "from": "nerima",
+      "to": "ikebukuro",
+      "line": "METRO_FUKUTOSHIN",
+      "minutes": 9,
+      "km": 6
+    },
+    {
+      "from": "ikebukuro",
+      "to": "kishibojimmae",
+      "line": "METRO_FUKUTOSHIN",
+      "minutes": 3,
+      "km": 1.8
+    },
+    {
+      "from": "kishibojimmae",
+      "to": "higashi_shinjuku",
+      "line": "METRO_FUKUTOSHIN",
+      "minutes": 4,
+      "km": 2.3
+    },
+    {
+      "from": "higashi_shinjuku",
+      "to": "shinjuku_sanchome",
+      "line": "METRO_FUKUTOSHIN",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "shinjuku_sanchome",
+      "to": "harajuku",
+      "line": "METRO_FUKUTOSHIN",
+      "minutes": 4,
+      "km": 2.6
+    },
+    {
+      "from": "harajuku",
+      "to": "shibuya",
+      "line": "METRO_FUKUTOSHIN",
+      "minutes": 2,
+      "km": 1.2
+    },
+    {
+      "from": "ikebukuro",
+      "to": "higashi_ikebukuro_yonchome",
+      "line": "METRO_YURAKUCHO",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "higashi_ikebukuro_yonchome",
+      "to": "iidabashi",
+      "line": "METRO_YURAKUCHO",
+      "minutes": 7,
+      "km": 4
+    },
+    {
+      "from": "ikebukuro",
+      "to": "higashi_ikebukuro_yonchome",
+      "line": "TOEI_BUS_MAIN",
+      "minutes": 6,
+      "km": 1.1
+    },
+    {
+      "from": "iidabashi",
+      "to": "ichigaya",
+      "line": "METRO_YURAKUCHO",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "ichigaya",
+      "to": "hibiya",
+      "line": "METRO_YURAKUCHO",
+      "minutes": 8,
+      "km": 3.9
+    },
+    {
+      "from": "hibiya",
+      "to": "tsukishima",
+      "line": "METRO_YURAKUCHO",
+      "minutes": 6,
+      "km": 3.1
+    },
+    {
+      "from": "tsukishima",
+      "to": "toyosu",
+      "line": "METRO_YURAKUCHO",
+      "minutes": 3,
+      "km": 1.4
+    },
+    {
+      "from": "meguro",
+      "to": "shirokanedai",
+      "line": "METRO_NAMBOKU",
+      "minutes": 2,
+      "km": 1.3
+    },
+    {
+      "from": "shirokanedai",
+      "to": "shirokane_takanawa",
+      "line": "METRO_NAMBOKU",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "shirokane_takanawa",
+      "to": "azabu_juban",
+      "line": "METRO_NAMBOKU",
+      "minutes": 3,
+      "km": 1.3
+    },
+    {
+      "from": "azabu_juban",
+      "to": "yotsuya",
+      "line": "METRO_NAMBOKU",
+      "minutes": 9,
+      "km": 4.4
+    },
+    {
+      "from": "yotsuya",
+      "to": "ichigaya",
+      "line": "METRO_NAMBOKU",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "ichigaya",
+      "to": "iidabashi",
+      "line": "METRO_NAMBOKU",
+      "minutes": 2,
+      "km": 1.1
+    },
+    {
+      "from": "iidabashi",
+      "to": "kasuga",
+      "line": "METRO_NAMBOKU",
+      "minutes": 2,
+      "km": 1
+    },
+    {
+      "from": "kasuga",
+      "to": "oji_ekimae",
+      "line": "METRO_NAMBOKU",
+      "minutes": 11,
+      "km": 6.4
+    },
+    {
+      "from": "yoyogi_uehara",
+      "to": "harajuku",
+      "line": "METRO_CHIYODA",
+      "minutes": 3,
+      "km": 1.5
+    },
+    {
+      "from": "harajuku",
+      "to": "omotesando",
+      "line": "METRO_CHIYODA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "omotesando",
+      "to": "hibiya",
+      "line": "METRO_CHIYODA",
+      "minutes": 9,
+      "km": 4.8
+    },
+    {
+      "from": "hibiya",
+      "to": "otemachi",
+      "line": "METRO_CHIYODA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "otemachi",
+      "to": "ogawamachi",
+      "line": "METRO_CHIYODA",
+      "minutes": 2,
+      "km": 0.9
+    },
+    {
+      "from": "ogawamachi",
+      "to": "nishi_nippori",
+      "line": "METRO_CHIYODA",
+      "minutes": 8,
+      "km": 4.3
+    },
+    {
+      "from": "nishi_nippori",
+      "to": "machiya_ekimae",
+      "line": "METRO_CHIYODA",
+      "minutes": 3,
+      "km": 1.7
+    },
+    {
+      "from": "machiya_ekimae",
+      "to": "kita_senju",
+      "line": "METRO_CHIYODA",
+      "minutes": 4,
+      "km": 2.6
+    },
+    {
+      "from": "shibuya",
+      "to": "shimokitazawa",
+      "line": "KEIO_INOKASHIRA",
+      "minutes": 4,
+      "km": 3
+    },
+    {
+      "from": "shimokitazawa",
+      "to": "meidaimae",
+      "line": "KEIO_INOKASHIRA",
+      "minutes": 3,
+      "km": 1.9
+    },
+    {
+      "from": "meidaimae",
+      "to": "kichijoji",
+      "line": "KEIO_INOKASHIRA",
+      "minutes": 11,
+      "km": 7.8
+    },
+    {
+      "from": "shinjuku",
+      "to": "yoyogi_uehara",
+      "line": "ODAKYU_MAIN",
+      "minutes": 5,
+      "km": 3.5
+    },
+    {
+      "from": "yoyogi_uehara",
+      "to": "shimokitazawa",
+      "line": "ODAKYU_MAIN",
+      "minutes": 2,
+      "km": 1.4
+    },
+    {
+      "from": "shibuya",
+      "to": "sangenjaya",
+      "line": "TOKYU_DENENTOSHI",
+      "minutes": 4,
+      "km": 3.3
+    },
+    {
+      "from": "sangenjaya",
+      "to": "futako_tamagawa",
+      "line": "TOKYU_DENENTOSHI",
+      "minutes": 7,
+      "km": 6.1
+    },
+    {
+      "from": "shibuya",
+      "to": "nakameguro",
+      "line": "TOKYU_TOYOKO",
+      "minutes": 3,
+      "km": 2.2
+    },
+    {
+      "from": "nakameguro",
+      "to": "jiyugaoka",
+      "line": "TOKYU_TOYOKO",
+      "minutes": 6,
+      "km": 4.8
+    },
+    {
+      "from": "jiyugaoka",
+      "to": "musashi_kosugi",
+      "line": "TOKYU_TOYOKO",
+      "minutes": 6,
+      "km": 3.8
+    },
+    {
+      "from": "musashi_kosugi",
+      "to": "yokohama",
+      "line": "TOKYU_TOYOKO",
+      "minutes": 13,
+      "km": 13.4
+    },
+    {
+      "from": "meguro",
+      "to": "musashi_kosugi",
+      "line": "TOKYU_MEGURO",
+      "minutes": 15,
+      "km": 9.8
+    },
+    {
+      "from": "sengakuji",
+      "to": "shinagawa",
+      "line": "KEIKYU_MAIN",
+      "minutes": 2,
+      "km": 1.2
+    },
+    {
+      "from": "shinagawa",
+      "to": "kamata",
+      "line": "KEIKYU_MAIN",
+      "minutes": 7,
+      "km": 8
+    },
+    {
+      "from": "kamata",
+      "to": "haneda_airport",
+      "line": "KEIKYU_MAIN",
+      "minutes": 8,
+      "km": 6.5
+    },
+    {
+      "from": "kamata",
+      "to": "kawasaki",
+      "line": "KEIKYU_MAIN",
+      "minutes": 4,
+      "km": 3.8
+    },
+    {
+      "from": "kawasaki",
+      "to": "yokohama",
+      "line": "KEIKYU_MAIN",
+      "minutes": 7,
+      "km": 10.4
+    },
+    {
+      "from": "oshiage",
+      "to": "motoyawata",
+      "line": "KEISEI_MAIN",
+      "minutes": 18,
+      "km": 14.5
+    },
+    {
+      "from": "nippori",
+      "to": "machiya_ekimae",
+      "line": "KEISEI_MAIN",
+      "minutes": 3,
+      "km": 2.2
+    },
+    {
+      "from": "machiya_ekimae",
+      "to": "motoyawata",
+      "line": "KEISEI_MAIN",
+      "minutes": 18,
+      "km": 15.6
+    },
+    {
+      "from": "asakusa",
+      "to": "oshiage",
+      "line": "TOBU_LINES",
+      "minutes": 3,
+      "km": 1.6
+    },
+    {
+      "from": "oshiage",
+      "to": "kita_senju",
+      "line": "TOBU_LINES",
+      "minutes": 10,
+      "km": 5.5
+    },
+    {
+      "from": "ikebukuro",
+      "to": "wakoshi",
+      "line": "TOBU_LINES",
+      "minutes": 12,
+      "km": 12.5
+    },
+    {
+      "from": "shiodome",
+      "to": "daiba",
+      "line": "YURIKAMOME_LINE",
+      "minutes": 13,
+      "km": 6.2
+    },
+    {
+      "from": "daiba",
+      "to": "toyosu",
+      "line": "YURIKAMOME_LINE",
+      "minutes": 16,
+      "km": 7.5
+    }
+  ]
+}
